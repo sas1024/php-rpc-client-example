@@ -1,0 +1,23 @@
+{
+    "name": "sas1024/php-rpc-client-example",
+    "description": "Example usage of eazy-jsonrpc with generated rpc client by rpcgen",
+    "authors": [
+        {
+            "name": "Alexander Korelskiy",
+            "email": "emu.sas@gmail.com"
+        }
+    ],
+    "autoload":{
+        "classmap":[
+            "src/MyShowsRpc/RpcClient.php"
+        ],
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "sergeyfast/eazy-jsonrpc": "v3.0.1"
+    }
+}
